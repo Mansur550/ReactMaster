@@ -1,0 +1,43 @@
+[00:04:24.122] Browser ERROR   ./package.json:2:1
+Error parsing package.json file
+  1 | {
+> 2 | <<<<<<< HEAD
+    | ^
+  3 |   "name": "level2",
+  4 | =======
+  5 |   "name": "level1",
+
+package.json is not parseable: invalid JSON: key must be a string at line 2 column 1
+[00:04:24.122] Browser ERROR   ./src/app/page.tsx:66:6
+Parsing ecmascript source code failed
+  64 |     </div>
+  65 | =======
+> 66 |     <>
+     |      ^
+  67 |       hello
+  68 |     </>
+  69 |
+
+Expression expected
+[00:04:24.122] Browser ERROR   ./src/app/page.tsx:65:1
+Parsing ecmascript source code failed
+  63 |       </main>
+  64 |     </div>
+> 65 | =======
+     | ^^^^^^^
+  66 |     <>
+  67 |       hello
+  68 |     </>
+
+Merge conflict marker encountered.
+[00:04:24.122] Browser ERROR   ./src/app/page.tsx:68:6
+Parsing ecmascript source code failed
+  66 |     <>
+  67 |       hello
+> 68 |     </>
+     |      ^^
+  69 |
+  70 | >>>>>>> 0de0e85d0c06f0f399fd97a4ef296deb5445dfae
+  71 |   );
+
+Unterminated regexp literal

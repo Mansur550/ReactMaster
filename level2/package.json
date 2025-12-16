@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "level2",
+=======
+  "name": "level1",
+>>>>>>> 0de0e85d0c06f0f399fd97a4ef296deb5445dfae
   "version": "0.1.0",
   "private": true,
   "scripts": {
